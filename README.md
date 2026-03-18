@@ -33,11 +33,11 @@ Morán&Ortíz Legal Suite es una plataforma web diseñada para centralizar la ge
 Su objetivo es transformar la gestión tradicional del despacho en una solución digital más organizada, segura y accesible, facilitando tanto el trabajo interno del equipo legal como la consulta de información por parte del cliente. 
 
 ## 👥 ¿A quién se dirige?
-La aplicación está dirigida a despachos jurídicos que necesitan estructurar su operativa interna y mejorar la relación digital con sus clientes. [file:2]  
+La aplicación está dirigida a despachos jurídicos que necesitan estructurar su operativa interna y mejorar la relación digital con sus clientes. 
 Dentro del sistema se contemplan cuatro perfiles principales: superadministrador, administrador, abogados y clientes, cada uno con permisos y responsabilidades diferenciadas. 
 
 ## 💡 Justificación
-La gestión jurídica suele depender de procesos fragmentados, seguimiento manual de expedientes y una comunicación poco centralizada con el cliente. [file:2]  
+La gestión jurídica suele depender de procesos fragmentados, seguimiento manual de expedientes y una comunicación poco centralizada con el cliente. 
 Morán&Ortíz Legal Suite nace para resolver esa necesidad mediante una plataforma que unifica la gestión de procedimientos, juicios, documentación y notificaciones en un único entorno digital. 
 El proyecto se justifica especialmente por la necesidad de ofrecer: 
 
