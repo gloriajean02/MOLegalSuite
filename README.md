@@ -29,22 +29,22 @@ Repositorio destinado a la generación de documentación y seguimiento del desar
 # Morán&Ortíz Legal Suite - Plataforma de Gestión Jurídica
 
 ## 📝 Resumen del Proyecto
-Morán&Ortíz Legal Suite es una plataforma web diseñada para centralizar la gestión jurídica del despacho, permitiendo administrar abogados, clientes, procedimientos, juicios, notificaciones y firma digital. [file:2]  
-Su objetivo es transformar la gestión tradicional del despacho en una solución digital más organizada, segura y accesible, facilitando tanto el trabajo interno del equipo legal como la consulta de información por parte del cliente. [file:2]
+Morán&Ortíz Legal Suite es una plataforma web diseñada para centralizar la gestión jurídica del despacho, permitiendo administrar abogados, clientes, procedimientos, juicios, notificaciones y firma digital. 
+Su objetivo es transformar la gestión tradicional del despacho en una solución digital más organizada, segura y accesible, facilitando tanto el trabajo interno del equipo legal como la consulta de información por parte del cliente. 
 
 ## 👥 ¿A quién se dirige?
 La aplicación está dirigida a despachos jurídicos que necesitan estructurar su operativa interna y mejorar la relación digital con sus clientes. [file:2]  
-Dentro del sistema se contemplan cuatro perfiles principales: superadministrador, administrador, abogados y clientes, cada uno con permisos y responsabilidades diferenciadas. [file:2]
+Dentro del sistema se contemplan cuatro perfiles principales: superadministrador, administrador, abogados y clientes, cada uno con permisos y responsabilidades diferenciadas. 
 
 ## 💡 Justificación
 La gestión jurídica suele depender de procesos fragmentados, seguimiento manual de expedientes y una comunicación poco centralizada con el cliente. [file:2]  
-Morán&Ortíz Legal Suite nace para resolver esa necesidad mediante una plataforma que unifica la gestión de procedimientos, juicios, documentación y notificaciones en un único entorno digital. [file:2]  
-El proyecto se justifica especialmente por la necesidad de ofrecer: [file:2]
+Morán&Ortíz Legal Suite nace para resolver esa necesidad mediante una plataforma que unifica la gestión de procedimientos, juicios, documentación y notificaciones en un único entorno digital. 
+El proyecto se justifica especialmente por la necesidad de ofrecer: 
 
-* Un control centralizado de clientes, abogados y procedimientos. [file:2]
-* Seguimiento estructurado del estado de cada procedimiento y de los juicios asociados. [file:2]
-* Notificaciones automáticas al cliente cuando se produzcan cambios relevantes. [file:2]
-* Gestión documental con soporte para firma digital por parte de abogados y clientes. [file:2]
+* Un control centralizado de clientes, abogados y procedimientos. 
+* Seguimiento estructurado del estado de cada procedimiento y de los juicios asociados. 
+* Notificaciones automáticas al cliente cuando se produzcan cambios relevantes. 
+* Gestión documental con soporte para firma digital por parte de abogados y clientes. 
 
 ---
 
@@ -52,46 +52,45 @@ El proyecto se justifica especialmente por la necesidad de ofrecer: [file:2]
 
 | Acción / Funcionalidad | Superadministrador | Administrador | Abogado | Cliente |
 | :--- | :---: | :---: | :---: | :---: |
-| Inicio de sesión | ✓ [file:2] | ✓ [file:2] | ✓ [file:2] | ✓ [file:2] |
-| Supervisión técnica y mantenimiento | ✓ [file:2] |  |  |  |
-| Alta y baja de abogados | ✓ [file:2] | ✓ [file:2] |  |  |
-| Consulta de estadísticas generales | ✓ [file:2] | ✓ [file:2] |  |  |
-| Registro de clientes |  |  | ✓ [file:2] |  |
-| Gestión de procedimientos (CRUD) |  |  | ✓ [file:2] |  |
-| Gestión de juicios |  |  | ✓ [file:2] |  |
-| Consulta del estado de procedimientos |  |  |  | ✓ [file:2] |
-| Recepción de notificaciones |  |  |  | ✓ [file:2] |
-| Firma digital de documentos |  |  | ✓ [file:2] | ✓ [file:2] |
+| Inicio de sesión | ✓  | ✓  | ✓  | ✓ |
+| Supervisión técnica y mantenimiento | ✓ |  |  |  |
+| Alta y baja de abogados | ✓  | ✓  |  |  |
+| Consulta de estadísticas generales | ✓ | ✓ |  |  |
+| Registro de clientes |  |  | ✓  |  |
+| Gestión de procedimientos (CRUD) |  |  | ✓ |  |
+| Gestión de juicios |  |  | ✓  |  |
+| Consulta del estado de procedimientos |  |  |  | ✓  |
+| Recepción de notificaciones |  |  |  | ✓ |
+| Firma digital de documentos |  |  | ✓ | ✓ |
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
 * **Lenguajes:** TypeScript/JavaScript, SQL (PostgreSQL), HTML5, CSS3 y JSON. [file:1]
-* **Frameworks y librerías:** [file:1]
-  * **Frontend:** React (SPA). [file:1]
+* **Frameworks y librerías:** 
+  * **Frontend:** React (SPA). 
   * **Estilos:** sistema visual propio inspirado en la identidad de la web corporativa del despacho. [file:3]
-  * **Backend as a Service:** Supabase (Auth, DB, Storage). [file:1]
-* **Entorno de desarrollo:** [file:1]
-  * IDE: Visual Studio Code. [file:1]
-  * Bundler: Vite. [file:1]
-  * Control de versiones: Git y GitHub. [file:1]
-* **Despliegue:** Vercel. [file:1]
-* **Contenerización:** Docker. [file:1]
-
+  * **Backend as a Service:** Supabase (Auth, DB, Storage). 
+* **Entorno de desarrollo:** 
+  * IDE: Visual Studio Code. 
+  * Bundler: Vite. 
+  * Control de versiones: Git y GitHub. 
+* **Despliegue:** Vercel. 
+* **Contenerización:** Docker. 
 ---
 
 ## 🧱 Entidades principales
 
-* **Abogado:** identificado por sus datos personales y profesionales, con capacidad para gestionar procedimientos asociados a sus clientes. [file:2]
-* **Cliente:** usuario final que accede a la plataforma para consultar el estado de sus procedimientos y recibir notificaciones. [file:2]
-* **Procedimiento:** núcleo funcional del sistema, con estado, tipo, documentación y juicios asociados. [file:2]
-* **Juicio:** registro vinculado a un procedimiento, con fecha, número de juzgado y posibles respuestas del juzgado. [file:2]
+* **Abogado:** identificado por sus datos personales y profesionales, con capacidad para gestionar procedimientos asociados a sus clientes. 
+* **Cliente:** usuario final que accede a la plataforma para consultar el estado de sus procedimientos y recibir notificaciones. 
+* **Procedimiento:** núcleo funcional del sistema, con estado, tipo, documentación y juicios asociados. 
+* **Juicio:** registro vinculado a un procedimiento, con fecha, número de juzgado y posibles respuestas del juzgado. 
 
 ---
 
 ## 🚀 Objetivo del repositorio
-Este repositorio reúne la documentación, evolución técnica y materiales del proyecto intermodular, incluyendo definición funcional, diseño, arquitectura, manual técnico, manual de usuario, despliegue y cierre del proyecto. [file:1][file:2]
+Este repositorio reúne la documentación, evolución técnica y materiales del proyecto intermodular, incluyendo definición funcional, diseño, arquitectura, manual técnico, manual de usuario, despliegue y cierre del proyecto.
 
 ---
 
