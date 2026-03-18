@@ -67,10 +67,10 @@ El proyecto se justifica especialmente por la necesidad de ofrecer:
 
 ## 🛠️ Stack Tecnológico
 
-* **Lenguajes:** TypeScript/JavaScript, SQL (PostgreSQL), HTML5, CSS3 y JSON. [file:1]
+* **Lenguajes:** TypeScript/JavaScript, SQL (PostgreSQL), HTML5, CSS3 y JSON. 
 * **Frameworks y librerías:** 
   * **Frontend:** React (SPA). 
-  * **Estilos:** sistema visual propio inspirado en la identidad de la web corporativa del despacho. [file:3]
+  * **Estilos:** sistema visual propio inspirado en la identidad de la web corporativa del despacho. 
   * **Backend as a Service:** Supabase (Auth, DB, Storage). 
 * **Entorno de desarrollo:** 
   * IDE: Visual Studio Code. 
